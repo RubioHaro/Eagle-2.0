@@ -30,3 +30,113 @@
     transform: rotate(360deg);
   }
 }
+
+.Fondo{
+  background-image: url(./img/background.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/******************************************************************
+Especificacion de Slides o sectores de contenido:
+******************************************************************/
+.slide {
+  text-align: center !important;
+  align-content: center;  
+  padding-top: 5% !important;
+  
+}
+
+
+/******************************************************************
+Especificacion de Fuentes Responsivas:
+-Fuentes iniciales.
+******************************************************************/
+html,
+body {
+	font-size: 12px !important;
+}
+h1 {
+	font-size: 1.602em !important;
+}
+h2 {
+	font-size: 1.424em !important;
+}
+h3 {
+	font-size: 1.266em !important;
+}
+h4 {
+	font-size: 1.125em !important;
+}
+h5 {
+	font-size: 0.889em !important;
+}
+h6 {
+	font-size: 0.79em !important;
+}
+.display-1 {
+	font-size: 3.906em !important;
+}
+.display-2 {
+	font-size: 3.125em !important;
+}
+.display-3 {
+	font-size: 2.5em !important;
+}
+.display-4 {
+	font-size: 2em !important;
+}
+
+
+/******************************************************************
+Especificaciones para dispositivos de medio tamaño (tabletas, 48em y superior):
+******************************************************************/
+
+@media (min-width: 48em) {
+	h1 {
+	  font-size: 2.5em !important;
+	}
+	h2 {
+		font-size: 1.953em !important;
+	}
+	h3 {
+		font-size: 1.563em !important;
+	}
+	h4 {
+		font-size: 1.25em !important;
+	}
+	.display-1 {
+		font-size: 6em !important;
+	}
+	.display-2 {
+		font-size: 5.5em !important;
+	}
+	.display-3 {
+		font-size: 4.5em !important;
+	}
+	.display-4 {
+		font-size: 3.5em !important;
+	}
+}
+/******************************************************************
+Especificaciones para dispositivos de gran tamaño (Monitores de escritorio, 62em y superior):
+******************************************************************/
+
+@media (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+	}
+}
+
+/******************************************************************
+Especificaciones para dispositivos de tamaño extra grande (Monitores de television ó grandes monitores, 75em y superior):
+******************************************************************/
+
+@media (min-width: 75em) {
+	html,
+	body {
+		font-size: 20px !important;
+	}
+}

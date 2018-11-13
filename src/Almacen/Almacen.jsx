@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Almacen extends Component {
   static propTypes = {
@@ -18,7 +18,7 @@ class Almacen extends Component {
                 <div class="col-md-4">
                   <div class="ContenedorImagenImagotipoIndex">
                     <a href="../Index.jsp">
-                      <img src="../Img/IsoLogo.jpg" alt="Imagotipo Aguila Bicefala" class="img-thumbnail" title="Grupo Aguila Bicefala" />
+                      <img src="../img/IsoLogo.jpg" alt="Imagotipo Aguila Bicefala" class="img-thumbnail" title="Grupo Aguila Bicefala" />
                     </a>
                   </div>
                 </div>
