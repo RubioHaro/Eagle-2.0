@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-
+import logo from '../img/LOGE3SAGTES.png';
+let version = 'Beta 0.2';
 class Almacen extends Component {
-  static propTypes = {
 
-  }
+  static propTypes = {}
+
   render = () => (
     <div>
       <div class="slide" id="slide-1" data-slide="1">
@@ -17,9 +18,7 @@ class Almacen extends Component {
               <div class="row">
                 <div class="col-md-4">
                   <div class="ContenedorImagenImagotipoIndex">
-                    <a href="../Index.jsp">
-                      <img src="../img/IsoLogo.jpg" alt="Imagotipo Aguila Bicefala" class="img-thumbnail" title="Grupo Aguila Bicefala" />
-                    </a>
+                    <img src={logo} alt="Imagotipo" class="img-fluid" title="Eagle Proyect" />
                   </div>
                 </div>
                 <div class="col-md-8  text-justify">
@@ -45,7 +44,7 @@ class Almacen extends Component {
           </div>
 
         </div>
-        {console.log("version 1.0")}
+        version {version}
       </div>
     </div>
   )
