@@ -501,3 +501,18 @@ h5 {
 .nav-link {
   cursor: pointer
 }
+
+.page {
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+  width: calc(100% - 200px);
+  background-color: #F4F7FA;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}

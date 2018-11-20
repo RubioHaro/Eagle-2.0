@@ -12,7 +12,7 @@ class systemInfo extends React.Component {
           <label>INFORMACIÓN SOBRE SISTEMA DE CONTROL DE ALMACEN</label>
         </div>
         <div className="card-body text-center">
-          <img src={img} className="img-fluid p-4" width="200" height="150" />
+          <img src={img} alt="Isologo" className="img-fluid p-4" width="200" height="150" />
           <p>Versión BETA 1.0<i className="fa fa-github"></i></p>
           <p>SISTEMA DE CONTROL DE ALMACEN</p>
           <p>Un desarrollo de Rubio Haro Systems<i className="fa fa-copyright"></i></p>

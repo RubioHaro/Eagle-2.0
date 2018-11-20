@@ -89,9 +89,9 @@ export default class Sidebar extends React.Component {
                                             </Nav>
                                         </Collapse>
                                     </NavItem>
-                                    <NavItem>
+                                    <NavItem className="side-menu list-unstyled">
                                         <NavLink onClick={this.toggleNavbarRequisiciones}>
-                                            <FontAwesomeIcon icon="clipboard-list" />  Requisición
+                                            <FontAwesomeIcon icon="clipboard-list" />  Requisición {this.state.open ? this.openIcon : this.closeIcon}
                                         </NavLink>
                                         <Collapse isOpen={!this.state.collapsed_requisiciones} navbar>
                                             <Nav navbar>
@@ -109,9 +109,6 @@ export default class Sidebar extends React.Component {
                                             <FontAwesomeIcon icon="car" />  Parque Vehicular
                                         </NavLink>
                                     </NavItem>
-                                    <ul id="side-main-menu" class="side-menu list-unstyled">
-                                        <li><a href="#Inventario" aria-expanded="false" data-toggle="collapse"> <i class="fa fa-database"></i>Respaldos BDD </a></li>
-                                    </ul>I
                                 </Nav>
                             </ul>
                         </div>
@@ -120,7 +117,7 @@ export default class Sidebar extends React.Component {
                             <ul id="side-admin-menu" className="side-menu list-unstyled">
                                 <Nav navbar>
                                     <NavItem>
-                                        <NavLink>
+                                        <NavLink href="./info">
                                             <FontAwesomeIcon icon="cog" />  Configuración
                                         </NavLink>
                                     </NavItem>
