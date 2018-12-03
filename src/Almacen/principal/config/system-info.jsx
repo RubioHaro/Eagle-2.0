@@ -1,6 +1,6 @@
 import React from 'react';
 import img from "../../../img/LOGE3SAGTES.png";
-
+import version from "../../../version.js"
 class systemInfo extends React.Component {
   static propTypes = {
 
@@ -13,7 +13,7 @@ class systemInfo extends React.Component {
         </div>
         <div className="card-body text-center">
           <img src={img} alt="Isologo" className="img-fluid p-4" width="200" height="150" />
-          <p>Versión BETA 1.0<i className="fa fa-github"></i></p>
+          <p>Versión {version}<i className="fa fa-github"></i></p>
           <p>SISTEMA DE CONTROL DE ALMACEN</p>
           <p>Un desarrollo de Rubio Haro Systems<i className="fa fa-copyright"></i></p>
           <div className="dropdown-divider"></div>
