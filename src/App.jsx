@@ -5,6 +5,7 @@ import Almacen from './Almacen/Almacen';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome, faClipboardList, faCar, faCog, faSignOutAlt, faChevronUp, faChevronLeft, faBars } from '@fortawesome/free-solid-svg-icons';
+import Home from './Home/Home';
 
 library.add(faHome, faClipboardList, faCar, faCog, faSignOutAlt, faChevronUp, faChevronLeft, faBars);
 
@@ -13,7 +14,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App Fondo">
-          <Route path="/" />
+          <Route path="/" component={Home} />
           <Route path="/Almacen" component={Almacen} />
         </div>
       </Router>

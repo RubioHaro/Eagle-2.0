@@ -327,6 +327,30 @@ nav.navbar a.navbar-brand {
   color: #ff3f3f !important;
 }
 
+.btn-primary {
+  color: color-yiq(#ff3f3f) !important;
+  background-color: #ff3f3f !important;
+  border-color: #ff3f3f !important;
+}
+
+.btn-primary:hover {
+  color: color-yiq(#ff1919) !important;
+  background-color: #ff1919 !important;
+  border-color: #ff0c0c !important;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 63, 63, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 63, 63, 0.5) !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #ff3f3f !important;
+  border-color: #ff3f3f !important;
+}
+
 
 
 nav.navbar .brand-text {
