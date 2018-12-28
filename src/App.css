@@ -1,3 +1,7 @@
+.text-primary {
+  color: #ff3f3f !important;
+}
+
 .App {
   text-align: center;
 }
@@ -40,8 +44,12 @@
 }
 
 /******************************************************************
-Especificacion de Slides o sectores de contenido:
-******************************************************************/
+.text-primary {
+  color: #ff3f3f !important;
+}Especificacion de Slides o sectores de contenido:
+**
+
+****************************************************************/
 .slide {
   text-align: center !important;
   align-content: center;
@@ -170,7 +178,10 @@ Especificaciones para dispositivos de tamaño extra grande (Monitores de televis
 .side-navbar {
   position: fixed;
   top: 0;
+
   left: 0;
+
+
   width: 200px;
   height: 100%;
   text-align: left;
@@ -190,6 +201,8 @@ Especificaciones para dispositivos de tamaño extra grande (Monitores de televis
 .side-navbar.hide {
   left: -70px;
 }
+
+
 
 .side-navbar a.brand-small {
   text-transform: uppercase;
@@ -211,8 +224,11 @@ Especificaciones para dispositivos de tamaño extra grande (Monitores de televis
 }
 
 .side-navbar li a {
+
   /* position: relative;  */
   font-size: .9rem;
+
+
   font-weight: 300;
   color: #fff;
   text-decoration: none;
@@ -221,7 +237,13 @@ Especificaciones para dispositivos de tamaño extra grande (Monitores de televis
 
 
 .side-navbar li:focus,
-.side-navbar li:hover {
+.s.text-primary {
+  color: #ff3f3f !important;
+}
+
+ide-navbar li:hover {
+
+
   background: #ff3f3f;
   color: #fff;
   text-decoration: none;
@@ -246,6 +268,178 @@ Especificaciones para dispositivos de tamaño extra grande (Monitores de televis
   position: absolute;
   top: 50%;
   right: 20px;
+}
+
+/*
+* ==========================================================
+*     Main NAVBAR
+* ==========================================================
+*/
+
+nav.navbar {
+  background: #393836;
+  padding: .8rem 0;
+  /* Navbar Brand --------- */
+  /*  Dropdowns ------------ */
+  /* Toggle Button ---------- */
+}
+
+nav.navbar .side-navbar-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+nav.navbar .container-fluid {
+  width: 100%;
+}
+
+nav.navbar .navbar-holder {
+  width: 100%;
+}
+
+nav.navbar a {
+  font-size: 0.8em;
+  color: #fff;
+  position: relative;
+}
+
+nav.navbar .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav.navbar a.logout i {
+  margin-left: 5px;
+}
+
+nav.navbar small {
+  font-size: 0.75em;
+  color: #999;
+}
+
+nav.navbar a.navbar-brand {
+  margin-left: 10px;
+  color: white !important;
+}
+
+.text-primary {
+  color: #ff3f3f !important;
+}
+
+
+
+nav.navbar .brand-text {
+
+  text-transform: uppercase;
+}
+
+
+
+nav.navbar .brand-text strong {
+  font-size: 1.5em;
+}
+
+nav.navbar .nav-menu {
+  margin-bottom: 0;
+}
+
+nav.navbar .dropdown-menu {
+  width: 320px;
+  right: 0;
+  left: auto;
+  float: left;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+nav.navbar .dropdown-menu a {
+  font-size: 0.75em;
+  color: #666;
+  padding: 10px;
+}
+
+nav.navbar .dropdown-menu a:active {
+  color: #fff;
+}
+
+nav.navbar .dropdown-menu a:active span {
+  color: #fff;
+}
+
+nav.navbar .dropdown-menu a span {
+  color: #777;
+}
+
+nav.navbar .dropdown-menu a i {
+  margin-right: 5px;
+}
+
+nav.navbar .msg-body span,
+nav.navbar .msg-body strong {
+  display: block;
+}
+
+nav.navbar .msg-body span {
+  font-size: 0.85em;
+}
+
+nav.navbar .msg-profile {
+  margin-right: 10px;
+  width: 50px;
+}
+
+nav.navbar .notification-content {
+  font-size: 0.8em;
+}
+
+nav.navbar a.menu-btn {
+  width: 40px;
+  height: 40px;
+
+  line-height: 40px;
+
+
+  background: #292929;
+  color: #fff;
+  text-align: center;
+  padding: 0 !important;
+}
+
+nav.navbar a.menu-btn i[class*='icon-'] {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+nav.navbar a.menu-btn:hover {
+  background: #33b35a;
+}
+
+/*  NAVBAR MEDIAQUERIES ---------------------------------- */
+@media (max-width: 575px) {
+  nav.navbar .dropdown-menu {
+    width: auto;
+    right: -40px;
+  }
+
+  nav.navbar .notification {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 992px) {
+  nav.navbar .dropdown-menu strong {
+    font-weight: 400;
+  }
+
+  nav.navbar .dropdown-menu a {
+    font-size: 0.9em;
+  }
 }
 
 .side-navbar li a[aria-expanded="true"]::before {
@@ -298,6 +492,10 @@ Especificaciones para dispositivos de tamaño extra grande (Monitores de televis
   color: #666;
 }
 
+.text-primary {
+  color: #ff3f3f !important;
+}
+
 .side-navbar .sidenav-header h2,
 h5 {
   margin: 10px 0 0;
@@ -307,6 +505,8 @@ h5 {
 
 .side-navbar .sidenav-heading {
   font-weight: 700;
+
+
   color: #adb5bd;
   font-size: .9rem;
   text-transform: uppercase;
@@ -341,7 +541,11 @@ h5 {
   display: none;
 }
 
-.side-navbar.shrink {
+.text-primary {
+  color: #ff3f3f !important;
+}
+
+.s ide-navbar.shrink {
   width: 70px;
   text-align: center;
 }
@@ -415,7 +619,13 @@ h5 {
     width: calc(100% - 70px);
   }
 
-  .side-navbar {
+  .s.text-primary {
+    color: #ff3f3f !important;
+  }
+
+  ide-navbar {
+
+
     left: -70px;
     width: 70px;
     text-align: center;

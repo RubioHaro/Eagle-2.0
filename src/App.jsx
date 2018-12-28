@@ -4,9 +4,9 @@ import './App.css';
 import Almacen from './Almacen/Almacen';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faClipboardList, faCar, faCog, faSignOutAlt, faChevronUp, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faClipboardList, faCar, faCog, faSignOutAlt, faChevronUp, faChevronLeft, faBars } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faHome, faClipboardList, faCar, faCog, faSignOutAlt, faChevronUp, faChevronLeft);
+library.add(faHome, faClipboardList, faCar, faCog, faSignOutAlt, faChevronUp, faChevronLeft, faBars);
 
 class App extends Component {
   render() {

@@ -6,6 +6,7 @@ import Sidebar from './principal/sidebar/sidebar';
 import Config from './principal/config/config';
 import Messages from '../Components/Messages/Messages';
 import Confirmation from '../Components/Confirmation/Confirmation';
+import Header from '../Components/Header/Header';
 
 class Almacen extends Component {
 
@@ -16,6 +17,7 @@ class Almacen extends Component {
       <div className="slide" id="slide-1" data-slide="1">
         <Sidebar />
         <div className="page">
+          <Header />
           <div className="container">
             <BrowserRouter>
               <Switch>
@@ -27,10 +29,9 @@ class Almacen extends Component {
                 {/* <Redirect to="Almacen/home" /> */}
               </Switch>
             </BrowserRouter>
-            <Messages header="Mensaje del sistema" message="Hola mundo" buttonLabel="Abrir mensajes"/>
-            <Confirmation header="Confirmación" message="Estas seguro que deseas cerrar sesión?" buttonLabel="confirmar"/>
+            <Messages header="Mensaje del sistema" message="Hola mundo" buttonLabel="Abrir mensajes" />
+            <Confirmation header="Confirmación" message="Estas seguro que deseas cerrar sesión?" buttonLabel="confirmar" />
           </div>
-
         </div>
       </div>
     </div>
