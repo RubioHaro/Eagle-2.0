@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import img from "../../../img/LOGE3SAGTES.png";
+import img from "../../img/LOGE3SAGTES.png";
 import { Button } from 'reactstrap';
 
 class Config extends Component {

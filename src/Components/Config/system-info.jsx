@@ -1,6 +1,7 @@
 import React from 'react';
-import img from "../../../img/LOGE3SAGTES.png";
-import version from "../../../version.js"
+import img from "../../img/LOGE3SAGTES.png";
+import version from "../../version.js"
+
 class systemInfo extends React.Component {
   static propTypes = {
 
