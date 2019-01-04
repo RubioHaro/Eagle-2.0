@@ -1,5 +1,9 @@
+:root {
+  --primary-color: #F38B2D
+ }
+
 .text-primary {
-  color: #ff3f3f !important;
+  color: var(--primary-color) !important;
 }
 
 .App {
@@ -43,13 +47,6 @@
   min-height: 100vh;
 }
 
-/******************************************************************
-.text-primary {
-  color: #ff3f3f !important;
-}Especificacion de Slides o sectores de contenido:
-**
-
-****************************************************************/
 .slide {
   text-align: center !important;
   align-content: center;
@@ -238,13 +235,11 @@ Especificaciones para dispositivos de tamaño extra grande (Monitores de televis
 
 .side-navbar li:focus,
 .s.text-primary {
-  color: #ff3f3f !important;
+  color: var(--primary-color) !important;
 }
 
 ide-navbar li:hover {
-
-
-  background: #ff3f3f;
+  background: var(--primary-color);
   color: #fff;
   text-decoration: none;
 }
@@ -323,20 +318,16 @@ nav.navbar a.navbar-brand {
   color: white !important;
 }
 
-.text-primary {
-  color: #ff3f3f !important;
-}
-
 .btn-primary {
-  color: color-yiq(#ff3f3f) !important;
-  background-color: #ff3f3f !important;
-  border-color: #ff3f3f !important;
+  color: color-yiq(var(--primary-color)) !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
 }
 
 .btn-primary:hover {
-  color: color-yiq(#ff1919) !important;
-  background-color: #ff1919 !important;
-  border-color: #ff0c0c !important;
+  color: color-yiq(var(--primary-color)) !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
 }
 
 .btn-primary:focus,
@@ -347,18 +338,13 @@ nav.navbar a.navbar-brand {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-  background-color: #ff3f3f !important;
-  border-color: #ff3f3f !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
 }
-
-
 
 nav.navbar .brand-text {
-
   text-transform: uppercase;
 }
-
-
 
 nav.navbar .brand-text strong {
   font-size: 1.5em;
@@ -647,9 +633,7 @@ h5 {
     color: #ff3f3f !important;
   }
 
-  ide-navbar {
-
-
+  .side-navbar {
     left: -70px;
     width: 70px;
     text-align: center;

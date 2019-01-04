@@ -4,11 +4,11 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import principalAlmacen from './principal/principal';
 import Sidebar from './principal/sidebar/sidebar';
-import Config from './principal/config/config';
 import Messages from '../Components/Messages/Messages';
 import Confirmation from '../Components/Confirmation/Confirmation';
 import Header from '../Components/Header/Header';
 import systemInfo from '../Components/Config/system-info';
+import Config from '../Components/Config/config';
 
 class Almacen extends Component {
 
